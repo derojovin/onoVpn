@@ -1,0 +1,22 @@
+[
+    {
+        "id": "us-east-1",
+        "name": "United States",
+        "address": "us.vpn.example.com",
+        "location": "New York",
+        "pingAddress": "ping-us.example.com",
+        "pingPort": 80,
+        "supportsWireGuard": true,
+        "iconRes": "usflag"
+    },
+    {
+        "id": "uk-london-1",
+        "name": "United Kingdom",
+        "address": "uk.vpn.example.com",
+        "location": "London",
+        "pingAddress": "ping-uk.example.com",
+        "pingPort": 80,
+        "supportsWireGuard": true,
+        "iconRes": "ukflag"
+    }
+]
