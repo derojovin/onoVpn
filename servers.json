@@ -1,22 +1,82 @@
 [
-    {
-        "id": "us-east-1",
-        "name": "United States",
-        "address": "us.vpn.example.com",
-        "location": "New York",
-        "pingAddress": "ping-us.example.com",
-        "pingPort": 80,
-        "supportsWireGuard": true,
-        "iconRes": "usflag"
-    },
-    {
-        "id": "uk-london-1",
-        "name": "United Kingdom",
-        "address": "uk.vpn.example.com",
-        "location": "London",
-        "pingAddress": "ping-uk.example.com",
-        "pingPort": 80,
-        "supportsWireGuard": true,
-        "iconRes": "ukflag"
-    }
+  {
+    "id": "us-east-1",
+    "name": "United States (1)",
+    "address": "vpn236365545.opengw.net",
+    "location": "United States",
+    "pingAddress": "ping-us1.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "usflag"
+  },
+  {
+    "id": "us-east-2",
+    "name": "United States (2)",
+    "address": "vpn817261435.opengw.net",
+    "location": "United States",
+    "pingAddress": "ping-us2.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "usflag"
+  },
+  {
+    "id": "jp-1",
+    "name": "Japan (1)",
+    "address": "public-vpn-113.opengw.net",
+    "location": "Japan",
+    "pingAddress": "ping-jp1.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "jpflag"
+  },
+  {
+    "id": "jp-2",
+    "name": "Japan (2)",
+    "address": "public-vpn-72.opengw.net",
+    "location": "Japan",
+    "pingAddress": "ping-jp2.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "jpflag"
+  },
+  {
+    "id": "kr-1",
+    "name": "South Korea (1)",
+    "address": "vpn100802312.opengw.net",
+    "location": "South Korea",
+    "pingAddress": "ping-kr1.example.com",
+    "pingPort": 995,
+    "supportsWireGuard": false,
+    "iconRes": "krflag"
+  },
+  {
+    "id": "ro-1",
+    "name": "Romania",
+    "address": "opengw.opengw.net",
+    "location": "Romania",
+    "pingAddress": "ping-ro1.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "roflag"
+  },
+  {
+    "id": "tw-1",
+    "name": "Taiwan",
+    "address": "jayporeonvpn4.opengw.net",
+    "location": "Taiwan",
+    "pingAddress": "ping-tw1.example.com",
+    "pingPort": 443,
+    "supportsWireGuard": false,
+    "iconRes": "twflag"
+  },
+  {
+    "id": "uk-london-1",
+    "name": "United Kingdom",
+    "address": "uk.vpn.example.com",
+    "location": "London",
+    "pingAddress": "ping-uk.example.com",
+    "pingPort": 80,
+    "supportsWireGuard": true,
+    "iconRes": "ukflag"
+  }
 ]
