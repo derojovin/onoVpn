@@ -37,7 +37,7 @@
     "pingAddress": "ping-jp2.example.com",
     "pingPort": 443,
     "supportsWireGuard": false,
-    "iconRes": "usflag"
+    "iconRes": "jp"
   },
   {
     "id": "kr-1",
@@ -47,7 +47,7 @@
     "pingAddress": "ping-kr1.example.com",
     "pingPort": 995,
     "supportsWireGuard": false,
-    "iconRes": "usflag"
+    "iconRes": "kr"
   },
   {
     "id": "ro-1",
@@ -57,7 +57,7 @@
     "pingAddress": "ping-ro1.example.com",
     "pingPort": 443,
     "supportsWireGuard": false,
-    "iconRes": "usflag"
+    "iconRes": "rm"
   },
   {
     "id": "tw-1",
@@ -77,6 +77,6 @@
     "pingAddress": "ping-uk.example.com",
     "pingPort": 80,
     "supportsWireGuard": true,
-    "iconRes": "usflag"
+    "iconRes": "uk"
   }
 ]
