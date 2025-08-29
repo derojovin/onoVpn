@@ -1,15 +1,14 @@
 [
+ 
   {
-   "id": "uk-london-1",
-  "name": "United Kingdom",
-  "address": "uk.vpn.example.com",
-  "location": "London",
-  "pingAddress": "ping-uk.example.com",
-  "pingPort": 80,
-  "supportsWireGuard": true,
-  "wireguardPublicKey": "your_public_key_here",
-  "wireguardPort": 51820,
-  "iconRes": "uk"
+    "id": "uk-london-1",
+    "name": "United Kingdom",
+    "address": "uk.vpn.example.com",
+    "location": "London",
+    "pingAddress": "ping-uk.example.com",
+    "pingPort": 80,
+    "supportsWireGuard": true,
+    "iconRes": "uk"
   },
   {
     "id": "us-east-2",
@@ -70,15 +69,5 @@
     "pingPort": 443,
     "supportsWireGuard": false,
     "iconRes": "usflag"
-  },
-  {
-    "id": "uk-london-1",
-    "name": "United Kingdom",
-    "address": "uk.vpn.example.com",
-    "location": "London",
-    "pingAddress": "ping-uk.example.com",
-    "pingPort": 80,
-    "supportsWireGuard": true,
-    "iconRes": "uk"
   }
 ]
