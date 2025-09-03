@@ -1,49 +1,23 @@
-[
-  {
-    "id": "ca2-vpnjantit",
-    "name": "Canada (VPNJantit)",
-    "address": "ca2.vpnjantit.com",
-    "location": "Canada",
-    "pingAddress": "ca2.vpnjantit.com",
-    "pingPort": 1024,
-    "supportsWireGuard": true,
-    "iconRes": "uk",
-    "wireGuardConfig": {
-      "interface": {
-        "address": "192.168.6.28/32",
-        "dns": "1.1.1.1,8.8.8.8",
-        "privateKey": "IAFEhVqCrRsICYs/qJfa2kp97C+JpLTM1U02QWIPNEI="
-      },
-      "peer": {
-        "publicKey": "LZg89RAqejsZi6rhPIiSalWqDojKt08km4WIIlYh0zI=",
-        "allowedIPs": "0.0.0.0/0, ::/0",
-        "endpoint": "ca2.vpnjantit.com:1024",
-        "persistentKeepalive": 25
-      }
-    }
-  },
-  {
-    "id": "uk-london-1",
-    "name": "United Kingdom",
-    "address": "uk.vpn.example.com",
-    "location": "London",
-    "pingAddress": "ping-uk.example.com",
-    "pingPort": 80,
-    "supportsWireGuard": true,
-    "iconRes": "uk",
-    "wireGuardConfig": {
-      "interface": {
-        "address": "10.8.0.2/24",
-        "dns": "1.1.1.1,8.8.8.8",
-        "privateKey": "YOUR_PRIVATE_KEY_HERE"
-      },
-      "peer": {
-        "publicKey": "SERVER_PUBLIC_KEY_HERE",
-        "allowedIPs": "0.0.0.0/0, ::/0",
-        "endpoint": "uk.vpn.example.com:51820",
-        "persistentKeepalive": 25
-      }
+[{
+  "id": "ca2-vpnjantit",
+  "name": "Canada (VPNJantit)",
+  "address": "ca2.vpnjantit.com",
+  "location": "Canada",
+  "pingAddress": "ca2.vpnjantit.com",
+  "pingPort": 1024,
+  "supportsWireGuard": true,
+  "iconRes": "ca",
+  "wireGuardConfig": {
+    "interfaceConfig": {
+      "address": "192.168.6.28/32",
+      "dns": "1.1.1.1,8.8.8.8",
+      "privateKey": "IAFEhVqCrRsICYs/qJfa2kp97C+JpLTM1U02QWIPNEI="
+    },
+    "peer": {
+      "publicKey": "LZg89RAqejsZi6rhPIiSalWqDojKt08km4WIIlYh0zI=",
+      "allowedIPs": "0.0.0.0/0, ::/0",
+      "endpoint": "ca2.vpnjantit.com:1024",
+      "persistentKeepalive": 25
     }
   }
-
-]
+}]
