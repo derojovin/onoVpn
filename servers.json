@@ -1,22 +1,22 @@
 [{
-  "id": "ca2-vpnjantit",
-  "name": "Canada3 (VPNJantit)",
-  "address": "ca3.vpnjantit.com",
-  "location": "Canada",
+  "id": "enock12-vpnjantit.com",
+  "name": "vpnjantit.com",
+  "address": "fr3.vpnjantit.com",
+  "location": "France",
   "pingAddress": "ca3.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "ca",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.168/32",
+      "address": "192.168.6.157/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "YC0v14sAngl5SMuWblbJ0QSMxp74m/79hdZpaP9z6UU="
+      "privateKey": "2PN2g8p2Te8d8nnIFKNEW3Xs8oYapIyc3TAZhwvC43w="
     },
     "peer": {
-      "publicKey": "wkgxhVoGxrOxBmVLaMcZ4q0Xs4pVZdYl6CyQEBg0gQI=",
+      "publicKey": "xFJQmU8Il//hQvfhkuhXpQ5YNKwPJfigQfhPVe7ISis=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "ca2.vpnjantit.com:1024",
+      "endpoint": "fr3.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
