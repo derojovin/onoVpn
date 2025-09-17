@@ -1,12 +1,12 @@
-[{
-  "id": "enock12-vpnjantit.com",
+{
+  "id": "vpnjantit-fr3",
   "name": "vpnjantit.com",
   "address": "fr3.vpnjantit.com",
   "location": "France",
-  "pingAddress": "ca3.vpnjantit.com",
+  "pingAddress": "fr3.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
-  "iconRes": "ca",
+  "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
       "address": "192.168.6.157/32",
@@ -20,4 +20,4 @@
       "persistentKeepalive": 25
     }
   }
-}]
+}
