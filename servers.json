@@ -1,22 +1,22 @@
 [{
-  "id": "vpnjantit-fr3",
-  "name": "vpnjantit.com",
-  "address": "fr3.vpnjantit.com",
-  "location": "France",
-  "pingAddress": "fr3.vpnjantit.com",
+  "id": "jp1.vpnjantit.com",
+  "name": "jp1.vpnjantit.com",
+  "address": "jp1.vpnjantit.com",
+  "location": "Japan",
+  "pingAddress": "jp1.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.157/32",
+      "address": "192.168.6.83/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "2PN2g8p2Te8d8nnIFKNEW3Xs8oYapIyc3TAZhwvC43w="
+      "privateKey": "cGZBG/rp9Js7t97e4/T7mgMot5bmLx1wFHvaLiARAGs="
     },
     "peer": {
-      "publicKey": "xFJQmU8Il//hQvfhkuhXpQ5YNKwPJfigQfhPVe7ISis=",
+      "publicKey": "T4BLZr9U24hn0Bdk7TcLUGOqaX+rD/sY8x3T1KwzFhg="
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "fr3.vpnjantit.com:1024",
+      "endpoint": "jp1.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
