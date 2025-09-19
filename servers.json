@@ -14,7 +14,7 @@
       "privateKey": "cGZBG/rp9Js7t97e4/T7mgMot5bmLx1wFHvaLiARAGs="
     },
     "peer": {
-      "publicKey": "T4BLZr9U24hn0Bdk7TcLUGOqaX+rD/sY8x3T1KwzFhg="
+      "publicKey": "T4BLZr9U24hn0Bdk7TcLUGOqaX+rD/sY8x3T1KwzFhg=",
       "allowedIPs": "0.0.0.0/0, ::/0",
       "endpoint": "jp1.vpnjantit.com:1024",
       "persistentKeepalive": 25
