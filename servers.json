@@ -20,5 +20,28 @@
       "persistentKeepalive": 25
     }
   }
+},
+  {
+  "id": "jp6.vpnjantit.com",
+  "name": "jp6.vpnjantit.com",
+  "address": "jp6.vpnjantit.com",
+  "location": "Japan",
+  "pingAddress": "jp6.vpnjantit.com",
+  "pingPort": 1024,
+  "supportsWireGuard": true,
+  "iconRes": "fr",
+  "wireGuardConfig": {
+    "interfaceConfig": {
+      "address": "192.168.6.141/32",
+      "dns": "1.1.1.1,8.8.8.8",
+      "privateKey": "ePM2L9of9Sr4LEiTFo6wpOe/V3JvrRcpFlniY/RjvGc="
+    },
+    "peer": {
+      "publicKey": "mmSSSg1VPz8Gg7VYSgpkrYeylfAqn0m2Van+EidI11Q=",
+      "allowedIPs": "0.0.0.0/0, ::/0",
+      "endpoint": "jp6.vpnjantit.com:1024",
+      "persistentKeepalive": 25
+    }
+  }
 }
 ]
