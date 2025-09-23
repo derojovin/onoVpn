@@ -1,5 +1,4 @@
-{
-  "servers": [
+ [
     {
       "id": "openvpn-bh1-tcp",
       "name": "BH1 OpenVPN Server (TCP)",
@@ -35,4 +34,4 @@
       }
     }
   ]
-}
+
