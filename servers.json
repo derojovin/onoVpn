@@ -1,15 +1,15 @@
 [{
   "id": "jp2.vpnjantit.com",
   "name": "jp2.vpnjantit.com",
-  "address": "jp1.vpnjantit.com",
+  "address": "jp2.vpnjantit.com",
   "location": "Japan",
-  "pingAddress": "jp1.vpnjantit.com",
+  "pingAddress": "jp2.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.83/32",
+      "address": "192.168.6.111/32",
       "dns": "1.1.1.1,8.8.8.8",
       "privateKey": "CH84uuqGx1FHxvVCdJ1M4zAMKj97udQwPe31w9qRVUI="
     },
