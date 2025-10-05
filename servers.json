@@ -1,6 +1,6 @@
 [{
-  "id": "jp1.vpnjantit.com",
-  "name": "jp1.vpnjantit.com",
+  "id": "jp2.vpnjantit.com",
+  "name": "jp2.vpnjantit.com",
   "address": "jp1.vpnjantit.com",
   "location": "Japan",
   "pingAddress": "jp1.vpnjantit.com",
@@ -11,35 +11,35 @@
     "interfaceConfig": {
       "address": "192.168.6.83/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "cGZBG/rp9Js7t97e4/T7mgMot5bmLx1wFHvaLiARAGs="
+      "privateKey": "CH84uuqGx1FHxvVCdJ1M4zAMKj97udQwPe31w9qRVUI="
     },
     "peer": {
-      "publicKey": "T4BLZr9U24hn0Bdk7TcLUGOqaX+rD/sY8x3T1KwzFhg=",
+      "publicKey": "dTabWXo0B07A5rXnbyW3AiY/SlfZy8JCKwhf3ZoYjx0=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "jp1.vpnjantit.com:1024",
+      "endpoint": "jp2.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
 },
   {
-  "id": "jp6.vpnjantit.com",
-  "name": "jp6.vpnjantit.com",
-  "address": "jp6.vpnjantit.com",
+  "id": "am1.vpnjantit.com",
+  "name": "am1.vpnjantit.com",
+  "address": "am1.vpnjantit.com",
   "location": "Japan",
-  "pingAddress": "jp6.vpnjantit.com",
+  "pingAddress": "am1.vpnjantit.com"
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.141/32",
+      "address": "am1.vpnjantit.com/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "ePM2L9of9Sr4LEiTFo6wpOe/V3JvrRcpFlniY/RjvGc="
+      "privateKey": "SHL/nxOTVT49WPArOLOIOEKmqjO3I9wXobx+lKoUkmc="
     },
     "peer": {
-      "publicKey": "mmSSSg1VPz8Gg7VYSgpkrYeylfAqn0m2Van+EidI11Q=",
+      "publicKey": "SboVc0+fgGFcJe7X3M+kQc08BKlOu6X5Mbiyc2DLGVo=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "jp6.vpnjantit.com:1024",
+      "endpoint": "am1.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
