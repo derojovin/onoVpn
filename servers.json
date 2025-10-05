@@ -21,7 +21,7 @@
     }
   }
 },
-  {
+ {
   "id": "am1.vpnjantit.com",
   "name": "am1.vpnjantit.com",
   "address": "am1.vpnjantit.com",
@@ -32,7 +32,7 @@
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "am1.vpnjantit.com/32",
+      "address": "192.168.6.220/32",
       "dns": "1.1.1.1,8.8.8.8",
       "privateKey": "SHL/nxOTVT49WPArOLOIOEKmqjO3I9wXobx+lKoUkmc="
     },
