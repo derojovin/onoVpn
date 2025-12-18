@@ -1,23 +1,16 @@
-[
-  {
-    "id": "openvpn-usa3-udp",
-    "name": "USA3 OpenVPN Server",
-    "location": "USA",
-    "address": "usa3.vpnjantit.com",
-    "iconRes": "us",
-    "load": 35,
-    "ping": 45,
-    "protocols": ["OPENVPN"],
-    "openVpnConfig": {
-      "config": "client\ndev tun\nproto udp\nremote usa3.vpnjantit.com 2500\nresolv-retry infinite\nnobind\npersist-key\npersist-tun\nremote-cert-tls server\nauth SHA512\ncipher AES-256-CBC\nignore-unknown-option block-outside-dns\nblock-outside-dns\nverb 3\nlink-mtu 1603\nauth-nocache\ntls-client\ntls-version-min 1.2\ntls-cipher TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256\nsetenv opt block-outside-dns",
-      "ca": "-----BEGIN CERTIFICATE-----\nMIIDSzCCAjOgAwIBAgIUGRiU0iESAlyEsHlDCY7eok6Yug8wDQYJKoZIhvcNAQEL\nBQAwFjEUMBIGA1UEAwwLRWFzeS1SU0EgQ0EwHhcNMjIwOTI1MDcwOTUxWhcNMzIw\nOTIyMDcwOTUxWjAWMRQwEgYDVQQDDAtFYXN5LVJTQSBDQTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAK/Ietxp8ul48Ec95F6lQomLSdDVIESEgCl6F6ur\nPpvrN76RFJTP2aHe27UwFSqhSMjvPf8IqDBFj1kY1+lTenniPxb3z6dDqh6ln7RF\nw5z3dHucGrmLwG4paUkmvac9ubV1cTUTHGTplAFNPsXeIY6mSrjSdAd1J1j07zLQ\nwFyl23AlhEqK5j+LduLyF5TkpsQKMT+0/U5AzeD0HCeiQUDNWb8cXZ+jc6ArfGKS\nQWLPPqOhA/Xr/ID8QdWJceyB+pMGxCdnKfC2OD4yYvEnVHMKEMyz4Ai/KgWulGw3\niI6RgtpDWV7+Z9oUzdLyjkGEAmwQe85+9zBnVR7gn76H/QkCAwEAAaOBkDCBjTAM\nBgNVHRMEBTADAQH/MB0GA1UdDgQWBBS+Rez6q5MNEMJ8mf9g68UDy3e/9zBRBgNV\nHSMESjBIgBS+Rez6q5MNEMJ8mf9g68UDy3e/96EapBgwFjEUMBIGA1UEAwwLRWFz\neS1SU0EgQ0GCFBkYlNIhEgJchLB5QwmO3qJOmLoPMAsGA1UdDwQEAwIBBjANBgkq\nhkiG9w0BAQsFAAOCAQEADN1o/5haAf6SlhcgJJyc4uzo/rPh+YRz//fgKqb5nrVQ\nh5WyD8BJpXyAE7PSsPIA/atw6OTRQfPSMu6jk7Q8I1wwosnPuqHbEzx/c/oY3tJR\nXDMDtdpTGkBwJGhuyTlk0HvZ1g9W01Cxh8CC+zXvrSaQdXYjGPBkqOs9GNDuLfkU\nt7HsnzFZY4sdtDMV+jZV5R19t5u7paeuCRTH9Pug81cl9FwbNO6eHIvgfPyDSS9b\ndB20XXaeYTqKxMPt0e75/utY+a9wkvlB9L7R1TEkzgQ0UGcBF4YduA4tVSPerDUj\nintzxHinQSbkWLW9gHdlE9pxQEpEYGqTds8bNdiAAw==\n-----END CERTIFICATE-----",
-      "cert": "-----BEGIN CERTIFICATE-----\nMIIDYTCCAkmgAwIBAgIRAKtnixmd3cxcw7ABitO7ZWowDQYJKoZIhvcNAQELBQAw\nFjEUMBIGA1UEAwwLRWFzeS1SU0EgQ0EwHhcNMjUxMjE4MTE1NTUyWhcNMzUxMjE2\nMTE1NTUyWjAdMRswGQYDVQQDDBJqYW5lLXZwbmphbnRpdC5jb20wggEiMA0GCSqG\nSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5hYfyZ9wMYSm0cYBwtDkbq5AVJryw3386\nNXfS3q/LsmPDBpqWYHKNWBWyXXh8AjaD2g7HVKtV81BN11l9NKEA3ayP71R5egds\n2Od+P7GKfxtHez03MyUKueWQbcOnZ4Q97KACu1Egr+z+s0h24ncFeLSvu1yrXFNs\nP8zJqOZjiCqPLOI47SEWqBEdXu8dqG2qHWfGYnN+l2ie0paPip6iaVyIaR69atJk\nK1uIO5HJwULKQUMiPUyVPUPJHwdsJZWXYwkjYlx2d+upBzJwK9JvreFM7syuDyS9\n4WTvrGQn25EbhPVCli8bb5NOn5TsbvdY5M82XKboMCCbDqEVvsd/AgMBAAGjgaIw\ngZ8wCQYDVR0TBAIwADAdBgNVHQ4EFgQUgWtur1rlcsMZSh0uMgPoyMDlXKYwUQYD\nVR0jBEowSIAUvkXs+quTDRDCfJn/YOvFA8t3v/ehGqQYMBYxFDASBgNVBAMMC0Vh\nc3ktUlNBIENBghQZGJTSIRICXISweUMJjt6iTpi6DzATBgNVHSUEDDAKBggrBgEF\nBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQELBQADggEBAJKNAF0b2mw1VAvR\noLkex+ebcd77STMtFyjFNonThv4LZZBtmbTwFNlDCyLM1m6k1oAwCFKNBhNmfmZN\nfg8f14lOeI2BRBS8klqypNxtbn/zybBHTbadauDMxOW+i/I5U77HElStXctMTuaF\nUyBCkJ3bLZej8u0k3dxKGHG9sYWdoGvLDgKR+GmQA1WcUN1v1sNe5PG72e39IDP/\nlS7tAMc2nz0ax4gN6F1hdcOGzS9MN+v2ouT4YYhRCpr9/ziJ+NwKe9gb53ktLqBx\nl0lLfX6ETqU0u8cCkEMLkh90dPZYXmxPlCL9YerQTdyqEAM9uoseleCW2dznj15Q\nkaHQSQI=\n-----END CERTIFICATE-----",
-      "key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5hYfyZ9wMYSm0\ncYBwtDkbq5AVJryw3386NXfS3q/LsmPDBpqWYHKNWBWyXXh8AjaD2g7HVKtV81BN\n11l9NKEA3ayP71R5egds2Od+P7GKfxtHez03MyUKueWQbcOnZ4Q97KACu1Egr+z+\ns0h24ncFeLSvu1yrXFNsP8zJqOZjiCqPLOI47SEWqBEdXu8dqG2qHWfGYnN+l2ie\n0paPip6iaVyIaR69atJkK1uIO5HJwULKQUMiPUyVPUPJHwdsJZWXYwkjYlx2d+up\nBzJwK9JvreFM7syuDyS94WTvrGQn25EbhPVCli8bb5NOn5TsbvdY5M82XKboMCCb\nDqEVvsd/AgMBAAECggEAV0/AVPXLSqo5wfn+/EvdaqfaJhI2kLmGu6LpUz1JmADL\nUcBcZbRbhSj1AR5bc2VpObGY7ffrsQZTf2b/71yi/3DUY2M8KvWi4/fLLxAT4v4C\nHSijfUSdRMiLgWcfQzyFMM2Z2t9EhbE2RQKkcosPf+w4gVIZAW7wtgvquee7EhD4\nsH06JVLK/7gD0QW+P0WyYfscJmiuypZqi7wYzZ3dV2zIvRSBq3fc/zms51qFEHrE\nKzYHthLIByLca9i1RCuf0gdWCV6tVQxTpx0h/xHGQHejdAicMdZuSkmS7n3msw9r\niewxOvgylJerzNCKS00mcNS50Lis85LH1oIxv/ueMQKBgQDlBOcEFN87k2tNBN+6\ncMJbNS1wTeg2IN87MRjjoGs+qmm/qeRdayLD+nvYHk8+GUUmWx++FBHtw6d/Pe/y\nAcor4YUcOHAVoslFs0wKKLWbUlwFtwYgMqSYAWUR7RCPrp0bDlfWKNxiOJvi15LO\ncrPgCaOGJ/kZwzsNXjskjaq/rwKBgQDPYMP2vuQCEY6IZusrYzl7N6zl0QGeaURi\nLpP7zUYelVcDoukLtLbywsFYQPJlFgx6vQ7DMTMRWPVZhJ8pS32L7x5nOF7wKkIC\nI8oUa3gMAsPSM3dzuBRh8akWm0zofUKbLKO22xDXd1HLtbUqApCEvZsYDKu9Jjic\n2lBFKCgZMQKBgCXjK7y3Hz8h4kx5k/GqGd0w7PV5TgM2aPfH5ZAyx8s0Mg5tMsRp\npvS5Caf1S7LAR3pS9OtjMpwdFCauvnVQ6ntb8cN7ar+JkLahNOExXun1NBgV8UN+\nXVBwWqIej/DVOFRziQB6/gqZxuA+PaE9xJg5v/2/uywR6kEJ58riTO8tAoGAQjM4\nu3b6oHJsVrzMC+C0A9KlHgQXiTM/gjwuP26rGK5BxcZmsLbyxBJJ2Ft7RavBNhlO\nMh9tlvcX84izqmIP5PDjer3zCKXkxnwYUWZxPxxO2LZXRpiX4SBdAvt2lK0P6ytX\n49KQ0MelU+tgttV0vvssHIRG+q3N2rySbVFBY7ECgYEAwUAqvuO4V6NL+MBEntlG\nay02AHQrO+4Wo/JUv3IGZ7a9pWymsoc7SvA7251JnKiuMlGPVfWbxwZ/XvMT1xXM\nWyPk8my1r2i4/Tf71Or6y3+RecXwEr4BdrC0730vL7roEwE/Ls2JjE/yDj5lSEx4\ngQdyv+zBvvU74zJHOIe0XQU=\n-----END PRIVATE KEY-----",
-      "tlsCrypt": "-----BEGIN OpenVPN Static key V1-----\n98457765057b1db1bc0b46260b8a7002\n1ed874dd61e022963f26726d87420af4\n8e66217642b150281e0376560e089163\n4ddea946461c34e02fc4be21095d758e\n84a9e9c906a83631ca7b485875084e92\n86e3ce34d09e1ff36d3dcb98bdab86cd\n0e250fe5ed8e5281258a1a35ca5d23cc\nba200da07a464e9d0f421beea27e3966\nf4d224bf58463caf4e45db471c747fa0\nb7bfcf6a60b035c6a378ef01281db3ef\nd157e5855034b6c4ecf4177b816a33d9\n25cf16a60431f6752fff20e958117f68\n5504026b7250e369749f00f2ea90e017\n544b7f74cdf4a631aa02095829d233bb\nbf89ed536ed9a36b2bb933267bf5d2ee\naf1cdfae624fb7537831e35fbd7cef76\n-----END OpenVPN Static key V1-----",
+{
+  "servers": [
+    {
+      "id": "openvpn-usa3",
+      "name": "USA3 Server",
+      "location": "USA",
+      "address": "usa3.vpnjantit.com",
+      "iconRes": "us",
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
       "protocol": "udp",
       "port": 2500,
       "username": "jane-vpnjantit.com",
       "password": "123450"
     }
-  }
-]
+  ]
+}
