@@ -9,9 +9,9 @@
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.111/32",
+      "address": "192.168.6.207/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "CH84uuqGx1FHxvVCdJ1M4zAMKj97udQwPe31w9qRVUI="
+      "privateKey": "MK+xRi2YtVTQGMjVWxSyXBOdGnBl1trmMBHYNsTlXGc="
     },
     "peer": {
       "publicKey": "dTabWXo0B07A5rXnbyW3AiY/SlfZy8JCKwhf3ZoYjx0=",
