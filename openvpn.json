@@ -1,5 +1,4 @@
-{
-  "servers": [
+ [
     {
       "id": "openvpn-usa3",
       "name": "USA3 Server",
@@ -20,4 +19,4 @@
       }
     }
   ]
-}
+
