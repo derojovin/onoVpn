@@ -1,22 +1,22 @@
 [{
-  "id": "jp2.vpnjantit.com",
-  "name": "jp2.vpnjantit.com",
-  "address": "jp2.vpnjantit.com",
-  "location": "Japan",
-  "pingAddress": "jp2.vpnjantit.com",
+  "id": "uk.vpnjantit.com",
+  "name": "uk.vpnjantit.com",
+  "address": "uk.vpnjantit.com",
+  "location": "uk",
+  "pingAddress": "uk.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.207/32",
+      "address": "192.168.6.26/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "MK+xRi2YtVTQGMjVWxSyXBOdGnBl1trmMBHYNsTlXGc="
+      "privateKey": "OGH5cAQAInrDsi46CYo1QJMJa12FIFSsSpfCtjuoalw="
     },
     "peer": {
-      "publicKey": "dTabWXo0B07A5rXnbyW3AiY/SlfZy8JCKwhf3ZoYjx0=",
+      "publicKey": "zwBItQRGuJze84z4Gv/27O/Xq4CIA0BBCRLWiEXnwC4=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "jp2.vpnjantit.com:1024",
+      "endpoint": "uk.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
