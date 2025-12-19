@@ -1,22 +1,21 @@
- [
-    {
-      "id": "openvpn-usa3",
-      "name": "USA3 Server",
-      "location": "USA",
-      "address": "usa3.vpnjantit.com",
-      "pingAddress": "usa3.vpnjantit.com",
-      "pingPort": 2500,
-      "supportsWireGuard": false,
-      "iconRes": "us",
-      "load": 35,
-      "ping": 45,
-      "openVpnConfig": {
-        "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
-        "protocol": "udp",
-        "port": 2500,
-        "username": "jane-vpnjantit.com",
-        "password": "123450"
-      }
+[
+  {
+    "id": "openvpn-usa3",
+    "name": "USA3 Server",
+    "location": "USA",
+    "address": "usa3.vpnjantit.com",
+    "pingAddress": "usa3.vpnjantit.com",
+    "pingPort": 2500,
+    "supportsWireGuard": false,
+    "iconRes": "us",
+    "load": 35,
+    "ping": 45,
+    "openVpnConfig": {
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
+      "protocol": "udp",
+      "port": 2500,
+      "username": "jane-vpnjantit.com",
+      "password": "123450"
     }
-  ]
-
+  }
+]
