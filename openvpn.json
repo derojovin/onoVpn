@@ -1,10 +1,10 @@
 [
   {
-    "id": "openvpn-usa3",
-    "name": "USA3 Server",
+    "id": "openvpn-usa1",
+    "name": "USA1 Server",
     "location": "USA",
-    "address": "usa3.vpnjantit.com",
-    "pingAddress": "usa3.vpnjantit.com",
+    "address": "usa1.vpnjantit.com",
+    "pingAddress": "usa1.vpnjantit.com",
     "pingPort": 2500,
     "supportsWireGuard": false,
     "iconRes": "us",
@@ -14,8 +14,8 @@
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
       "protocol": "udp",
       "port": 2500,
-      "username": "jane-vpnjantit.com",
-      "password": "123450"
+      "username": "dero-vpnjantit.com",
+      "password": "1234560"
     }
   }
 ]
