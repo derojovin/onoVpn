@@ -11,7 +11,7 @@
     "load": 35,
     "ping": 45,
     "openVpnConfig": {
-      "configUrl": "https://github.com/derojovin/onoVpn/blob/main/usa3.ovpn",
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
       "protocol": "udp",
       "port": 2500,
       "username": "jane-vpnjantit.com",
