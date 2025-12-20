@@ -12,8 +12,6 @@
     "ping": 45,
     "openVpnConfig": {
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
-      "protocol": "udp",
-      "port": 2500,
       "username": "dero-vpnjantit.com",
       "password": "1234560"
     }
