@@ -2,7 +2,7 @@
   "id": "jp1.vpnjantit.com",
   "name": "jp1.vpnjantit.com",
   "address": "jp1.vpnjantit.com",
-  "location": "JP",
+  "location": "JP2",
   "pingAddress": "jp1.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
