@@ -16,7 +16,7 @@
     "peer": {
       "publicKey": "75ayqLimwQw8X0MuZLwohoOMNdNbpvWCDfhaCEjJokU=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": " premijp1.vpnjantit.com:1024",
+      "endpoint": "premijp1.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
