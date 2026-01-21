@@ -1,4 +1,4 @@
-{
+[
  
     {
       "id": "openvpn-usa1",
@@ -14,12 +14,12 @@
       "type": "openvpn"  
     },
      {
-      "id": "openvpn-usa3",
+      "id": "openvpn-usa2",
       "name": "USA2 Server",
       "location": "USA",
       "address": "usa1.vpnjantit.com",
       "iconRes": "us",
-      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa2.ovpn",
       "protocol": "udp",
       "port": 2500,
       "username": "dero-vpnjantit.com",
@@ -27,4 +27,4 @@
       "type": "openvpn"  
     }
   
-}
+]
