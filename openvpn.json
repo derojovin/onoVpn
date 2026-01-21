@@ -11,7 +11,14 @@
       "port": 2500,
       "username": "dero-vpnjantit.com",
       "password": "123456",
-      "type": "openvpn"  
+      "type": "openvpn",
+     "openVpnConfig": {
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
+      "username": "dero-vpnjantit.com",
+      "password": "123456",
+      "port": 2500,
+      "protocol": "udp"
+    }
     },
      {
       "id": "openvpn-usa2",
@@ -24,7 +31,14 @@
       "port": 2500,
       "username": "dero-vpnjantit.com",
       "password": "123456",
-      "type": "openvpn"  
+      "type": "openvpn",
+      "openVpnConfig": {
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
+      "username": "dero-vpnjantit.com",
+      "password": "123456",
+      "port": 2500,
+      "protocol": "udp"
+    }
     }
   
 ]
