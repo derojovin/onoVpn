@@ -1,31 +1,30 @@
-[
-  {
-    "id": "us-openvpn-1",
-    "name": "USA OpenVPN",
-    "address": "vpn-us.example.com",
-    "location": "United States",
-    "pingAddress": "vpn-us.example.com",
-    "pingPort": 443,
-    "supportsWireGuard": false,
-    "iconRes": "us",
-    "load": 45,
-    "ping": 120,
-    "openVpnConfig": {
-      "config": "client\nremote vpn-us.example.com 1194\nproto udp\ndev tun\nresolv-retry infinite\nnobind\npersist-key\npersist-tun\ncipher AES-256-GCM\nauth SHA256\nverb 3\n<ca>\n-----BEGIN CERTIFICATE-----\nYOUR_CA_CERT_HERE\n-----END CERTIFICATE-----\n</ca>",
-      "configUrl": null,
-      "ca": null,
-      "cert": null,
-      "key": null,
-      "tlsCrypt": null,
+{
+ 
+    {
+      "id": "openvpn-usa1",
+      "name": "USA1 Server",
+      "location": "USA",
+      "address": "usa1.vpnjantit.com",
+      "iconRes": "us",
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
       "protocol": "udp",
-      "port": 1194,
-      "username": "optional_user",
-      "password": "optional_pass"
+      "port": 2500,
+      "username": "dero-vpnjantit.com",
+      "password": "123456",
+      "type": "openvpn"  
     },
-    "configUrl": "https://example.com/configs/us.ovpn",
-    "protocol": "udp",
-    "port": 1194,
-    "username": null,
-    "password": null
-  }
-]
+     {
+      "id": "openvpn-usa3",
+      "name": "USA2 Server",
+      "location": "USA",
+      "address": "usa1.vpnjantit.com",
+      "iconRes": "us",
+      "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
+      "protocol": "udp",
+      "port": 2500,
+      "username": "dero-vpnjantit.com",
+      "password": "123456",
+      "type": "openvpn"  
+    }
+  
+}
