@@ -1,23 +1,23 @@
 [
  
     {
-      "id": "openvpn-usa1",
-      "name": "USA1 Server",
-      "location": "USA",
-      "address": "usa1.vpnjantit.com",
+      "id": "openvpn-thaliand",
+      "name": "TH Server",
+      "location": "THA",
+      "address": "th3.vpnjantit.com",
       "iconRes": "us",
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
-      "protocol": "udp",
-      "port": 2500,
-      "username": "dero-vpnjantit.com",
+      "protocol": "tcp",
+      "port": 2501,
+      "username": "der-vpnjantit.com",
       "password": "123456",
       "type": "openvpn",
      "openVpnConfig": {
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/configs/usa3.ovpn",
-      "username": "dero-vpnjantit.com",
+      "username": "der-vpnjantit.com",
       "password": "123456",
-      "port": 2500,
-      "protocol": "udp"
+      "port": 2501,
+      "protocol": "tcp"
     }
     },
      {
