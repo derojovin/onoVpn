@@ -1,21 +1,21 @@
 [
  
     {
-      "id": "openvpn-thaliand",
-      "name": "TH Server",
-      "location": "THA",
-      "address": "th3.vpnjantit.com",
+      "id": "kaza",
+      "name": "Kaza Server",
+      "location": "Kaza",
+      "address": "kz2.vpnjantit.com",
       "iconRes": "us",
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
       "protocol": "tcp",
       "port": 2501,
-      "username": "der-vpnjantit.com",
-      "password": "123456",
+      "username": "kaza-vpnjantit.com",
+      "password": "12345",
       "type": "openvpn",
      "openVpnConfig": {
       "configUrl": "https://raw.githubusercontent.com/derojovin/onoVpn/main/usa3.ovpn",
-      "username": "der-vpnjantit.com",
-      "password": "123456",
+      "username": "kaza-vpnjantit.com",
+      "password": "12345",
       "port": 2501,
       "protocol": "tcp"
     }
