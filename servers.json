@@ -1,7 +1,7 @@
 [{
-  "id": "usa6.vpnjantit.com",
-  "name": "usa6.vpnjantit.com",
-  "address": "usa6.vpnjantit.com",
+  "id": "ph3.vpnjantit.com:1024"
+  "name": "ph3.vpnjantit.com:1024",
+  "address": "ph3.vpnjantit.com:1024",
   "location": "USA",
   "pingAddress": "usa6.vpnjantit.com",
   "pingPort": 1024,
@@ -9,14 +9,14 @@
   "iconRes": "fr",
   "wireGuardConfig": {
     "interfaceConfig": {
-      "address": "192.168.6.81/32",
+      "address": "192.168.6.46/32",
       "dns": "1.1.1.1,8.8.8.8",
-      "privateKey": "wMf229wVXDCvhKHXRF1M8QAHFeEA4yTXQzLdL9opjV0="
+      "privateKey": "mGT7IzJS0LmaUjZMe2Gs4qPoyDRu4INvVAB2L7YnoWA="
     },
     "peer": {
-      "publicKey": "c3FKBnHbWdUiKTysPZglk5WeBCbRlbTvdN1JBuSP3W8=",
+      "publicKey": "bj8fajlEc+GmIgYH8rdCCe5GpjUFqDBc9+T93JOrtSE=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "usa6.vpnjantit.com:1024",
+      "endpoint": "ph3.vpnjantit.com:1024:1024",
       "persistentKeepalive": 25
     }
   }
