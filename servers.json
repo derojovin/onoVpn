@@ -3,7 +3,7 @@
   "name": "ph3.vpnjantit.com:1024",
   "address": "ph3.vpnjantit.com:1024",
   "location": "USA",
-  "pingAddress": "usa6.vpnjantit.com",
+  "pingAddress": "ph3.vpnjantit.com",
   "pingPort": 1024,
   "supportsWireGuard": true,
   "iconRes": "fr",
@@ -16,7 +16,7 @@
     "peer": {
       "publicKey": "bj8fajlEc+GmIgYH8rdCCe5GpjUFqDBc9+T93JOrtSE=",
       "allowedIPs": "0.0.0.0/0, ::/0",
-      "endpoint": "ph3.vpnjantit.com:1024:1024",
+      "endpoint": "ph3.vpnjantit.com:1024",
       "persistentKeepalive": 25
     }
   }
